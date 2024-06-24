@@ -52,7 +52,7 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 ##### Data Access Policy EGA ID: EGAP00001003469. See https://i-am-an-african.net/documents
 
 #
-#### Contact person of the AfricanNeo Data Access Committee (DAC):
+#### Contact person of the Data Access Committee (DAC):
 ##### Prof. Carina Schlebusch. Email: carina.schlebusch@ebc.uu.se
 Human Evolution Program, Department of Organismal Biology, 
 Evolutionary Biology Centre, Uppsala University
