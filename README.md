@@ -25,7 +25,6 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 ### Extended Data Figures and Tables
 
-###### &emsp;[ED Fig. 1 | Geographical locations of modern and ancient populations](https://raw.githack.com/Schlebusch-lab/Expansion_of_BSP_peer-reviewed_article/main/00-ExtData/ED_Fig_1.html)
 
 
 ####
