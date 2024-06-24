@@ -8,9 +8,11 @@
 
 
 ## Main Figures
-##### &emsp;[Figure 1 | Dimension-reduction methods (DRM) used to explore the genetic diversity among studied Fulani populations](https://raw.githack.com/Schlebusch-lab/Expansion_of_BSP_peer-reviewed_article/main/00-Main_Fig.s/Fig_1.html)
+##### &emsp;[Figure 1 | Dimension-reduction methods (DRM) used to explore the genetic diversity among studied Fulani populations](https://raw.githack.com/Schlebusch-lab/Sahel_study
+/main/01-Main_Figures/Main Figure 1F.html)
 
-##### &emsp;[Figure 2 | Genome-wide diversity of modern and ancient populations](https://raw.githack.com/Schlebusch-lab/Expansion_of_BSP_peer-reviewed_article/main/00-Main_Fig.s/Fig_2.pdf)
+##### &emsp;[Figure 2 | Genome-wide diversity of modern and ancient populations](https://raw.githack.com/Schlebusch-lab/Sahel_study
+/main/00-Main_Figures/Fig_2.pdf)
 
 ##### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations ](https://raw.githack.com/Schlebusch-lab/Expansion_of_BSP_peer-reviewed_article/main/00-Main_Fig.s/Fig_3.html)
 
