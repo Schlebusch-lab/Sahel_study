@@ -8,23 +8,34 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 
 ### Main Figures
-###### &emsp;[Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1F.html)
+###### &emsp;[Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1F.html)
 
-###### &emsp;[Figure 1G | PCA plot to explore the genetic diversity among studied Fulani populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1G.html)
+###### &emsp;[Figure 1G | PCA plot to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1G.html)
 
-###### &emsp;[Figure 2A | PC1 and PC2 for Fulani groups and all reference populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2A.html)
+###### &emsp;[Figure 2A | PC1 and PC2 for Fulani groups and all reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2A.html)
 
-###### &emsp;[Figure 2B | PC1 and PC3 for Fulani groups and all reference populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2B.html)
+###### &emsp;[Figure 2B | PC1 and PC3 for Fulani groups and all reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2B.html)
 
-###### &emsp;[Figure 2C | PC1 and PC2 for 91 aDNA individuals, Fulani groups and all reference populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2C.html)
+###### &emsp;[Figure 2C | PC1 and PC2 for 91 aDNA individuals, Fulani groups and all reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2C.html)
 
-###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations ](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4A.html)
+###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4A.html)
 
-###### &emsp;[Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4B.html)
+###### &emsp;[Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4B.html)
 
 
-### Extended Data Figures and Tables
+### Supplementary Figures
 
+###### &emsp;[Figure 3A | Distribution of modern populations included in the Fulani-World dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3A.html)
+
+###### &emsp;[Figure 3B | Distribution of 91 aDNA individuals included in the Fulani_aDNA-Modern dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3B.html)
+
+###### &emsp;[Figure 11A | PC1 to PC2 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11A.html)
+
+###### &emsp;[Figure 11B | PC1 to PC3 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11B.html)
+
+###### &emsp;[Figure 11C | PC2 to PC3 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11C.html)
+
+###### &emsp;[Figure 15B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
 
 
 ####
