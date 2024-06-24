@@ -1,6 +1,6 @@
 ## This repository contains online material from the H3A-Fulani Project (Fortes-Lima et al. ***bioRxiv***).
 ####
-##### - Citation
+##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.
 Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 2024
 
