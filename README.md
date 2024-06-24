@@ -8,10 +8,15 @@
 
 
 ## Main Figures
-##### &emsp;[Figure 1 | Dimension-reduction methods (DRM) used to explore the genetic diversity among studied Fulani populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main Figure 1F.html)
+##### &emsp;[Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1F.html)
 
-##### &emsp;[Figure 2 | Genome-wide diversity of modern and ancient populations](https://raw.githack.com/Schlebusch-lab/Sahel_study
-/main/00-Main_Figures/Fig_2.pdf)
+##### &emsp;[Figure 1G | PCA plot to explore the genetic diversity among studied Fulani populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1G.html)
+
+##### &emsp;[Figure 2A | PC1 and PC2 for Fulani groups and all reference populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2A.pdf)
+
+##### &emsp;[Figure 2B | PC1 and PC3 for Fulani groups and all reference populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2B.pdf)
+
+##### &emsp;[Figure 2C | PC1 and PC2 for 91 aDNA individuals, Fulani groups and all reference populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2C.pdf)
 
 ##### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations ](https://raw.githack.com/Schlebusch-lab/Expansion_of_BSP_peer-reviewed_article/main/00-Main_Fig.s/Fig_3.html)
 
