@@ -18,9 +18,9 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 ###### &emsp;[Figure 2C | PC1 and PC2 for 91 aDNA individuals, Fulani groups and all reference populations](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2C.html)
 
-###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations ](https://raw.githack.com/Schlebusch-lab/Expansion_of_BSP_peer-reviewed_article/main/01-Main_Figures/Main_Figure_4A.html)
+###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations ](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4A.html)
 
-###### &emsp;[Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset](https://raw.githack.com/Schlebusch-lab/Expansion_of_BSP_peer-reviewed_article/main/01-Main_Figures/Main_Figure_4B.html)
+###### &emsp;[Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4B.html)
 
 
 ### Extended Data Figures and Tables
