@@ -25,17 +25,17 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 ### Supplementary Figures
 
-###### &emsp;[Figure 3A | Distribution of modern populations included in the Fulani-World dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3A.html)
+###### &emsp;[Figure S3A | Distribution of modern populations included in the Fulani-World dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3A.html)
 
-###### &emsp;[Figure 3B | Distribution of 91 aDNA individuals included in the Fulani_aDNA-Modern dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3B.html)
+###### &emsp;[Figure S3B | Distribution of 91 aDNA individuals included in the Fulani_aDNA-Modern dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3B.html)
 
-###### &emsp;[Figure 11A | PC1 to PC2 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11A.html)
+###### &emsp;[Figure S11A | PC1 to PC2 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11A.html)
 
-###### &emsp;[Figure 11B | PC1 to PC3 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11B.html)
+###### &emsp;[Figure S11B | PC1 to PC3 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11B.html)
 
-###### &emsp;[Figure 11C | PC2 to PC3 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11C.html)
+###### &emsp;[Figure S11C | PC2 to PC3 for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11C.html)
 
-###### &emsp;[Figure 15B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
+###### &emsp;[Figure S15B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
 
 
 ####
