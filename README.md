@@ -1,4 +1,4 @@
-## This repository contains online material from the AfricanNeo Project (Fortes-Lima et al. ***Nature*** 2023).
+## This repository contains online material from our Fulani Project (Fortes-Lima et al. ***bioRxiv***).
 ###
 #### - Citation
 ***Population History and Admixture of the Fulani People from the Sahel***
