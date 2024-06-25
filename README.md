@@ -31,7 +31,7 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 ###### &emsp;[Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S5.html)
 
-###### &emsp;[Figure S11 | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11.html)
+###### &emsp;[Figure S11A-S11C | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11.html)
 
 ###### &emsp;[Figure S15B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
 
