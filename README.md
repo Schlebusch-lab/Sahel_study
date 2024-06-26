@@ -47,7 +47,9 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 ***TBD***
 
-##### Data Access Policy EGA ID: EGAP00001003469. See https://i-am-an-african.net/documents
+##### Sahel Data Access Committee EGA ID: EGAC50000000290. 
+
+##### Data Access Policy EGA ID: EGAP50000000253. See https://i-am-an-african.net/documents
 
 #
 #### Contact person of the Data Access Committee (DAC):
