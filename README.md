@@ -2,7 +2,7 @@
 ####
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.
-Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 2024
+Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### On the right side of the interactive plots, there are different tools to scroll, zoom in, and zoom out in the plot with the mouse (using Box Zoom, Wheel Zoom, Wheel Zoom on the y-axis, Zoom in on the x-axis, Undo, and Reset) or to save the plots as a figure in high resolution (*.svg or *.png format). 
 
