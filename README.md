@@ -16,7 +16,7 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 ###### &emsp;[Figure 2B | PC1 and PC3 for Fulani groups and all reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2B.html)
 
-###### &emsp;[Figure 2C | PC1 and PC2 for 91 aDNA individuals, Fulani groups and all reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2C.html)
+###### &emsp;[Figure 2C | PC1 and PC2 for 91 aDNA individuals, and modern Fulani and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2C.html)
 
 ###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4A.html)
 
@@ -31,9 +31,9 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 ###### &emsp;[Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S5.html)
 
-###### &emsp;[Figure S11A-S11C | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11.html)
+###### &emsp;[Figure S13A-S13C | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S11.html)
 
-###### &emsp;[Figure S15B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
+###### &emsp;[Figure S21B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
 
 
 ####
