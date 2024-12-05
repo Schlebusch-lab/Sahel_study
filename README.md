@@ -46,8 +46,7 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 #
 #### EGA accessory numbers for data access:
-
-***TBD***
+Genome-wide genotype datasets of Fulani populations generated in this study (EGAS50000000451) are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers: EGAD50000000653 and EGAD50000000654 datasets).
 
 ##### Sahel Data Access Committee EGA ID: EGAC50000000290. 
 
