@@ -42,8 +42,6 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 #### Additional information
 - This study was funded by the European Research Council (ERC) under the grant AfricanNeo (“The African Neolithic: A genetic perspective”; grant agreement ID: 759933), granted to Prof. Carina Schlebusch; and by the Grant Agency of the Czech Republic (grant number: 19-09352S-14 P505) and by the Czech Academy of Sciences Award Praemium Academiae granted to Viktor Černý.
 
-- SNP array genotype data of Fulani populations generated in this project were made available through the European Genome-phenome Archive (EGA) data repository.
-
 #
 #### EGA accessory numbers for data access:
 Genome-wide genotype datasets of Fulani populations generated in this study (EGAS50000000451) are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers: EGAD50000000653 and EGAD50000000654 datasets).
