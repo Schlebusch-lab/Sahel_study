@@ -1,4 +1,4 @@
-## This repository contains online material from the H3A-Fulani Project (Fortes-Lima et al. 2024 ***bioRxiv***).
+## This repository contains online material from Fortes-Lima et al. 2024 ***bioRxiv***.
 ####
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.
@@ -44,7 +44,7 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 #
 #### EGA accessory numbers for data access:
-Genome-wide genotype datasets of Fulani populations generated in this study (EGAS50000000451) are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers: EGAD50000000653 and EGAD50000000654 datasets).
+Genome-wide genotype datasets of Fulani populations generated in this study (EGAS50000000451) are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers: &emsp;[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653) and &emsp;[EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654) datasets).
 
 ##### Sahel Data Access Committee EGA ID: EGAC50000000290. 
 
