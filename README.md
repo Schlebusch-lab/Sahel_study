@@ -2,9 +2,10 @@
 ####
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.
-Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
+Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 
+bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
-###### On the right side of the interactive plots, there are different tools to scroll, zoom in, and zoom out in the plot with the mouse (using Box Zoom, Wheel Zoom, Wheel Zoom on the y-axis, Zoom in on the x-axis, Undo, and Reset) or to save the plots as a figure in high resolution (*.svg or *.png format). 
+###### On the right side of the interactive plots, there are different tools for scrolling, zooming in, and zooming out with the mouse (using Box Zoom, Wheel Zoom, Wheel Zoom on the y-axis, Zoom in on the x-axis, Undo, and Reset) or saving the plots as figures in high resolution (*.svg format). 
 
 
 ### Main Figures
@@ -44,12 +45,11 @@ Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, an
 
 #
 #### EGA accessory numbers for data access:
-Genome-wide genotype datasets of Fulani populations generated in this study (EGAS50000000451) are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers: &emsp;[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653) and &emsp;[EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654) datasets).
+Genome-wide genotype datasets of Fulani populations generated in this study (&emsp;[EGAS50000000451](https://ega-archive.org/studies/EGAS50000000451)) are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers:&emsp;[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653) and &emsp;[EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654) datasets).
 
-##### Sahel Data Access Committee EGA ID: EGAC50000000290. 
+##### Sahel Data Access Committee EGA ID: &emsp;[EGAC50000000290](https://ega-archive.org/dacs/EGAC50000000290). 
 
 ##### Data Access Policy EGA ID: EGAP50000000253. See https://i-am-an-african.net/documents
-
 #
 #### Contact person of the Data Access Committee (DAC):
 ##### Prof. Carina Schlebusch. Email: carina.schlebusch@ebc.uu.se
