@@ -46,7 +46,7 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 #
 #### EGA accessory numbers for data access:
 EGA Study:&emsp;[EGAS50000000451](https://ega-archive.org/studies/EGAS50000000451)
-#
+.
 Genome-wide genotype datasets of Fulani populations generated in this study are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers:&emsp;[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653) and &emsp;[EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654) datasets).
 
 ##### Sahel Data Access Committee EGA ID: &emsp;[EGAC50000000290](https://ega-archive.org/dacs/EGAC50000000290). 
