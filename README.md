@@ -26,9 +26,7 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ### Supplementary Figures
 
-###### &emsp;[Figure S3A | Distribution of modern populations included in the Fulani-World dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3A.html)
-
-###### &emsp;[Figure S3B | Distribution of 91 aDNA individuals included in the Fulani_aDNA-Modern dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S3B.html)
+###### &emsp;[Figure S3 | Distribution of modern and ancient populations included in this study.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S3.html)
 
 ###### &emsp;[Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S5.html)
 
