@@ -1,30 +1,7 @@
 
-
-# Main Figures
- Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations.
- Figure 1G | PCA plot to explore the genetic diversity among studied Fulani populations.
- Figure 2A | PC1 and PC2 for Fulani groups and all reference populations.
- Figure 2B | PC1 and PC3 for Fulani groups and all reference populations.
- Figure 2C | PC1 and PC2 for 91 aDNA individuals, and modern Fulani and reference populations.
- Figure 4A | Effective population sizes (Ne) among Fulani populations.
- Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset.
-
-# Supplementary Figures
- Figure S3A | Distribution of modern populations included in the Fulani-World dataset.
- Figure S3B | Distribution of 91 aDNA individuals included in the Fulani_aDNA-Modern dataset.
- Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).
- Figure S8 | ADMIXTURE analysis from K=2 to K=17 and visualized using PONG.
- Figure S13A-S13C | PCA for ancient individuals projected onto the background of present-day worldwide populations.
- Figure S21B | Categories of ROH length estimated for studied worldwide populations.
-
-
-mkdir 01-Main_Figures 02-Suppl_Figures scripts
-
-##################  Main Figures  ################## 
-
 ## Main Figure 1
 
-###  Figure 1A | Map only for Fulani populations.
+###  Figure 1A | Map only for Fulani populations.
 python3 ${Folder}/scripts/bokeh_interactive_map.py -i Patterns/Only-BSP_Groups_imputation_df.csv -o ${Folder}/Fig_3/Fig_3map -w 1000 -t "" -a ""
 
 ###  Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations.
