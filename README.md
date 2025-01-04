@@ -32,7 +32,11 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### &emsp;[Figure S8 | ADMIXTURE analysis from K=2 to K=17 and visualized using PONG.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S8.pdf)
 
-###### &emsp;[Figure S13A-C | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S13.html)
+###### &emsp;[Figure S13 | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S13.html)
+
+###### &emsp;[Figure S14 | ADMIXTURE results at K=6 on the basis of modern and aDNA individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S14.pdf)
+
+###### &emsp;[Figure S15 | ADMIXTURE results at K=8 on the basis of modern and aDNA individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S15.pdf)
 
 ###### &emsp;[Figure S21B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
 
