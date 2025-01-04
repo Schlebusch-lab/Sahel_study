@@ -3,7 +3,7 @@ This README gives information about how to run the plotting scritps included in 
 
 # Main Figures #
 
-## Main Figure 1 ##
+### Main Figure 1 ###
 
 #### Figure 1A | Map only for Fulani populations. ####
 ```
@@ -17,41 +17,46 @@ python3 ${Folder}/scripts/bokeh_interactive_map.py -i 01-Maps/Map_${DB}_df.csv -
 ```
 
 
-## Main Figure 2 ##
+### Main Figure 2 ###
 ```
 Table_A='Tables/Fulani-World_DB'
 Table_C='Tables/Fulani_aDNA-Modern_DB'
 
 ###  Figure 2A and 2C | PC1 and PC2 for modern Fulani and reference populations and for ancient individuals.
+
 python3 scripts/bokeh_Figure_2A-2C.py --input_A ${Table_A}.pca.evec --input_C ${Table_C}.pca.evec \
  --pattern_A ${Table_A}_pca.csv --pattern_C ${Table_C}_grey.csv -o 01-Main_Figures/Figure_2A-C
 
 ###  Figure 2B | PC1 and PC3 for modern Fulani and reference populations and for ancient individuals.
+
 python3 scripts/bokeh_Figure_2B.py --input_A ${Table_A}.pca.evec --input_C ${Table_C}.pca.evec \
  --pattern_A ${Table_A}_pca.csv --pattern_C ${Table_C}_grey.csv -o 01-Main_Figures/Figure_2B
 
-###  Figure 2D | ADMIXTURE results at K=6
-Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D
+###  Figure 2D | ADMIXTURE results at K=6.
 
-[Optional: Include label for each population by using the sufix "With_Labels" in the output name.]
-Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D_With_Labels
+Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
+Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D
+
+[Optional: Include the label for each studied population by using the sufix "With_Labels" in the output name.]
+Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
+Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D_With_Labels
 ```
 
 # Supplementary Figures #
 
-## Suppl Figure S3 ##
+### Suppl Figure S3 ###
 ```
-python3 scripts/bokeh_Figure_S3.py --input_A Tables/Fulani-World_DB.csv --input_B Tables/Fulani_aDNA-Modern_DB.csv --output Suppl_Figures/Figure_S3
+python3 scripts/bokeh_Figure_S3.py --input_A Tables/Fulani-World_DB.csv \
+--input_B Tables/Fulani_aDNA-Modern_DB.csv --output Suppl_Figures/Figure_S3
 ```
 
-
-## Suppl Figure S6 ##
+### Suppl Figure S6 ###
 ### Figure S6A ###
 ```
 python3 ${Folder}/scripts/bokeh_interactive_map.py -i 01-Maps/Map_${DB}_df.csv -o ${Folder}/Fig_1/Fig_1a -w 2100 -t "" -a ""
 ```
 
-### Suppl Figure S9A
+### Suppl Figure S9A ###
 ```
 Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A
 
@@ -68,12 +73,16 @@ python3 scripts/bokeh_Figure_S13.py -i ${DB}.evec -p ${DB}_pca.csv -o 02-Suppl_F
 ### Suppl Figure S14 ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.r
+
+[Optional: Save plot in PNG format.]
 Fig='02-Suppl_Figures/Figure_S14'; pdftoppm ${Fig}.pdf ${Fig} -png -r 300
 ```
 
 ### Suppl Figure S15 ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K8.r
+
+[Optional: Save plot in PNG format.]
 Fig='02-Suppl_Figures/Figure_S15'; pdftoppm ${Fig}.pdf ${Fig} -png -r 300
 ```
 
