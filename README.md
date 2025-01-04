@@ -30,7 +30,7 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### &emsp;[Figure S8 | ADMIXTURE analysis from K=2 to K=17 and visualized using PONG.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S8.pdf)
 
-###### &emsp;[Figure S9A | Figure S9A. ADMIXTURE results at K=7 using the projection mode.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S9A.pdf)
+###### &emsp;[Figure S9A | ADMIXTURE results at K=7 using the projection mode.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S9A.pdf)
 
 ###### &emsp;[Figure S13 | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S13.html)
 
