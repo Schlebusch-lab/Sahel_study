@@ -9,28 +9,28 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 
 ### Main Figures
-###### &emsp;[Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1F.html)
+###### &emsp;[Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_1F.html)
 
-###### &emsp;[Figure 1G | PCA plot to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_1G.html)
+###### &emsp;[Figure 1G | PCA plot to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_1G.html)
 
-###### &emsp;[Figure 2A | PC1 and PC2 for Fulani groups and all reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2A.html)
+###### &emsp;[Figure 2A and 2C | PC1 and PC2 for modern Fulani and reference populations and for ancient individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2A-2C.html)
 
-###### &emsp;[Figure 2B | PC1 and PC3 for Fulani groups and all reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2B.html)
+###### &emsp;[Figure 2B | PC1 and PC3 for modern Fulani and reference populations and for ancient individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2B.html)
 
-###### &emsp;[Figure 2C | PC1 and PC2 for 91 aDNA individuals, and modern Fulani and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_2C.html)
+###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4A.html)
 
-###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4A.html)
-
-###### &emsp;[Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Main_Figure_4B.html)
+###### &emsp;[Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4B.html)
 
 
 ### Supplementary Figures
 
 ###### &emsp;[Figure S3 | Distribution of modern and ancient populations included in this study.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S3.html)
 
-###### &emsp;[Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S5.html)
+###### &emsp;[Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S5.html)
 
-###### &emsp;[Figure S8 | ADMIXTURE analysis from K=2 to K=17 and visualized using PONG.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S8.pdf)
+###### &emsp;[Figure S8 | ADMIXTURE analysis from K=2 to K=17 and visualized using PONG.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S8.pdf)
+
+###### &emsp;[Figure S9A | Figure S9A. ADMIXTURE results at K=7 using the projection mode.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S9A.pdf)
 
 ###### &emsp;[Figure S13 | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S13.html)
 
@@ -38,7 +38,7 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### &emsp;[Figure S15 | ADMIXTURE results at K=8 on the basis of modern and aDNA individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S15.pdf)
 
-###### &emsp;[Figure S21B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Suppl_Figure_S15B.html)
+###### &emsp;[Figure S21B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S15B.html)
 
 
 ####
