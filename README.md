@@ -42,13 +42,13 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### &emsp;[Figure S15 | ADMIXTURE results at K=8 on the basis of modern and aDNA individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S15.pdf)
 
-###### &emsp;[Figure S16 | Admixture graphs Fulani from Assaba (Mauritania) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S16.pdf)
+###### &emsp;[Figure S16 | Admixture graphs for Fulani from Assaba (Mauritania) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S16.pdf)
 
 ###### &emsp;[Figure S17 | Admixture graphs for Fulani from Banfora (Burkina Faso) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S17.pdf)
 
-###### &emsp;[Figure S18 | Admixture graph Fulani from Abalak (Niger) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S18.pdf)
+###### &emsp;[Figure S18 | Admixture graph for Fulani from Abalak (Niger) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S18.pdf)
 
-###### &emsp;[Figure S19 | Admixture graph Fulani from Linia (Chad) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S19.pdf)
+###### &emsp;[Figure S19 | Admixture graph for Fulani from Linia (Chad) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S19.pdf)
 
 ###### &emsp;[Figure S21B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S21B.html)
 
