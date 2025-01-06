@@ -88,14 +88,20 @@ python3 scripts/bokeh_Figure_S21.py --input_A $Table_A --input_B $Table_B -o "02
 
 ### Figure S3 | Distribution of modern and ancient populations included in this study. ###
 ```
-python3 scripts/bokeh_Figure_S3.py --input_A Tables/Fulani-World_DB.csv \
- --input_B Tables/Fulani_aDNA-Modern_DB.csv --output 02-Suppl_Figures/Figure_S3
+python3 scripts/bokeh_Figure_S3.py --output 02-Suppl_Figures/Figure_S03 \
+ --input_A Tables/Fulani-World_DB.map.csv --input_B Tables/Fulani_aDNA-Modern_DB.map.csv
+
+```
+### Figure S5 | PCA of Fulani and reference populations. ###
+```
+DB="Tables/Fulani-World_DB"
+python3 scripts/bokeh_Figure_S5.py -i ${DB}.pca.evec -p ${DB}_pca.csv -o 02-Suppl_Figures/Figure_S05
 
 ```
 ### Figure S6 | Geographical distribution and PCA of Fulani and reference populations. ###
 ```
 DB="Tables/Fulani-WGS_DB"
-python3 scripts/bokeh_Figure_S6.py --output 02-Suppl_Figures/Figure_S6 \
+python3 scripts/bokeh_Figure_S6.py --output 02-Suppl_Figures/Figure_S06 \
  --input_A ${DB}.map.csv --input_B ${DB}.pca.evec -p ${DB}_pca.csv
 
 ```
@@ -209,6 +215,23 @@ dev.off()
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S19.html")
+
+```
+### Figure S21 | Categories of ROH length on the basis of the studied populations. ###
+```
+python3 scripts/bokeh_Figure_S21.py --output "02-Suppl_Figures/Figure_S21"
+ --input_A "Tables/Only-Fulani_DB.ROH_Class_table.txt" --input_B "Tables/Fulani-World_DB.ROH_Class_table.txt"
+
+```
+### Figure S22 | Violin plots for ROH parameters estimated for each studied population. ###
+```
+# The same script can plot the following figures
+# Figure S22A | Total sum of short and long ROH for each studied population.
+# Figure S22B | Total sum of long ROH for each studied population.
+# Figure S23A | Genomic inbreeding coefficients for each studied population.
+# Figure S23B | Total length of ROH for each studied population.
+
+python3 scripts/ROH_violin_plots.py 
 
 ```
 
