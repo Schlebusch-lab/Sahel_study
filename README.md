@@ -17,24 +17,26 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### &emsp;[Figure 2B | PC1 and PC3 for modern Fulani and reference populations and for ancient individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2B.html)
 
-###### &emsp;[Figure 2D | Ppie charts only for the Iberomaurusian component estimated using ADMIXTURE analysis at K=6.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2D.pdf)
+###### &emsp;[Figure 2D | Pie charts only for the Iberomaurusian component estimated using ADMIXTURE analysis at K=6.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2D.pdf)
 
 ###### &emsp;[Figure 3A | Contour map based on ADMIXTURE results at K=7.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_3A.pdf)
 
 ###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4A.html)
 
-###### &emsp;[Figure 4B | Categories of ROH length on the basis of the Fulani-Only dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4B.html)
+###### &emsp;[Figures 4B and S21 | Categories of ROH length on the basis of the Fulani-Only dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S21.html)
 
 
 ### Supplementary Figures
 
-###### &emsp;[Figure S3 | Distribution of modern and ancient populations included in this study.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S3.html)
+###### &emsp;[Figure S3 | Distribution of modern and ancient populations included in this study.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S03.html)
 
-###### &emsp;[Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S5.html)
+###### &emsp;[Figure S5 | Genome-wide diversity of the Fulani and worldwide comparative populations (PC1 vs PC2-PC6).](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S05.html)
 
-###### &emsp;[Figure S8 | ADMIXTURE analysis from K=2 to K=17 and visualized using PONG.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S8.pdf)
+###### &emsp;[Figure S6 | Geographical distribution and PCA of Fulani and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S06.html)
 
-###### &emsp;[Figure S9A | ADMIXTURE results at K=7 using the projection mode.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S9A.pdf)
+###### &emsp;[Figure S8 | ADMIXTURE analysis from K=2 to K=17 and visualized using PONG.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S08.pdf)
+
+###### &emsp;[Figure S9A | ADMIXTURE results at K=7 using the projection mode.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S09A.pdf)
 
 ###### &emsp;[Figure S13 | PCA for ancient individuals projected onto the background of present-day worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S13.html)
 
@@ -42,16 +44,23 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### &emsp;[Figure S15 | ADMIXTURE results at K=8 on the basis of modern and aDNA individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S15.pdf)
 
-###### &emsp;[Figure S16 | Admixture graphs for Fulani from Assaba (Mauritania) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S16.pdf)
+###### &emsp;[Figure S16 | Admixture graphs for Fulani from Assaba (Mauritania) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S16.html)
 
-###### &emsp;[Figure S17 | Admixture graphs for Fulani from Banfora (Burkina Faso) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S17.pdf)
+###### &emsp;[Figure S17 | Admixture graphs for Fulani from Banfora (Burkina Faso) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S17.html)
 
-###### &emsp;[Figure S18 | Admixture graph for Fulani from Abalak (Niger) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S18.pdf)
+###### &emsp;[Figure S18 | Admixture graph for Fulani from Abalak (Niger) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S18.html)
 
-###### &emsp;[Figure S19 | Admixture graph for Fulani from Linia (Chad) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S19.pdf)
+###### &emsp;[Figure S19 | Admixture graph for Fulani from Linia (Chad) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S19.html)
 
-###### &emsp;[Figure S21B | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S21B.html)
+###### &emsp;[Figure S21 | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S21.html)
 
+###### &emsp;[Figures S22A | Total sum of short and long ROH for each studied population.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S22A.pdf)
+
+###### &emsp;[Figures S22B | Total sum of long ROH for each studied population.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S22B.pdf)
+
+###### &emsp;[Figures S23A | Genomic inbreeding coefficients for each studied population.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S23A.pdf)
+
+###### &emsp;[Figures S23B | Total length of ROH for each studied population.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S23B.pdf)
 
 ####
 #### Additional information
