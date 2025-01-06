@@ -1,0 +1,46 @@
+1,Mauritania_Fulani_Assaba,black,circle,#66AEBF,Fulani,Pastoralists
+2,Senegal_Fulani_Linguere,black,circle,#3B9AB2,Fulani,Pastoralists
+3,Senegal_Halpularen,#57A7BA,circle,None,Fulani,Farmers
+4,Gambia_Fula,#49A0B6,circle,None,Fulani,Farmers
+5,Guinea_Fulani,#74B5C3,circle,None,Fulani,Farmers
+6,Mali_Fulani_InnerDelta,black,circle,#C2C460,Fulani,Pastoralists
+7,Mali_Fulani_Diafarabe,black,circle,#8CBAA9,Fulani,Pastoralists
+8,BurkinaFaso_Fulani_Banfora,black,circle,#A7BF85,Fulani,Pastoralists
+9,BurkinaFaso_Fulani_Tindangou,black,circle,#E9C825,Fulani,Pastoralists
+10,BurkinaFaso_Fulani_Ziniare,black,circle,#DDC93C,Fulani,Pastoralists
+11,Cameroon_Fulani_Tcheboua,black,circle,#E58300,Fulani,Pastoralists
+12,Niger_Fulani_Abalak,black,circle,#E5BA11,Fulani,Pastoralists
+13,Niger_Fulani_Ader,black,circle,#E7C11B,Fulani,Pastoralists
+14,Niger_Fulani_Balatungur,black,circle,#E58300,Fulani,Pastoralists
+15,Niger_Fulani_Diffa,black,circle,#E2A600,Fulani,Pastoralists
+16,Niger_Fulani_Zinder,black,circle,#E2B407,Fulani,Pastoralists
+17,Chad_Fulani_Bongor,black,circle,#F21A00,Fulani,Pastoralists
+18,Chad_Fulani_Linia,black,circle,#EE3D00,Fulani,Pastoralists
+19,Senegal_Bedik,#78C679,triangle,None,West Africa,Farmers
+20,Gambia_GWD,#78C679,triangle,None,West Africa,Farmers
+21,Gambia_Jola,#78C679,triangle,None,West Africa,Farmers
+22,Gambia_Wolof,#78C679,triangle,None,West Africa,Farmers
+23,Gambia_Mandinka,#78C679,triangle,None,West Africa,Farmers
+24,SierraLeone_MSL,#78C679,triangle,None,West Africa,Farmers
+25,BurkinaFaso_Gurmantche,#78C679,triangle,None,West Africa,Farmers
+26,BurkinaFaso_Gurunsi,#78C679,triangle,None,West Africa,Farmers
+27,BurkinaFaso_Mossi,#78C679,triangle,None,West Africa,Farmers
+28,IvoryCoast_Ahizi,#78C679,triangle,None,West Africa,Farmers
+29,IvoryCoast_Yacouba,#78C679,triangle,None,West Africa,Farmers
+30,Ghana_GaAdangbe,#78C679,triangle,None,West Africa,Farmers
+31,Mali_Bwa,#78C679,triangle,None,West Africa,Farmers
+32,Benin_Fon,#78C679,triangle,None,West Africa,Farmers
+33,Benin_Yoruba,#78C679,triangle,None,West Africa,Farmers
+34,Benin_Bariba,#78C679,triangle,None,West Africa,Farmers
+35,Nigeria_Igbo,#78C679,triangle,None,West Africa,Farmers
+36,Nigeria_YRI,#78C679,triangle,None,West Africa,Farmers
+37,Nigeria_ESN,#78C679,triangle,None,West Africa,Farmers
+38,Chad_Daza,black,square,#BF812D,Central Africa,Pastoralists
+39,Chad_Kanembu,#BF812D,square,None,Central Africa,Farmers
+40,Chad_Laal,#BF812D,square,None,Central Africa,Farmers
+41,Chad_Sara,#BF812D,square,None,Central Africa,Farmers
+42,Chad_Toubou,black,square,#BF812D,Central Africa,Pastoralists
+43,Sudan_Daju,#BF812D,square,None,Central Africa,Farmers
+44,Sudan_NubaKoalib,#BF812D,square,None,Central Africa,Farmers
+45,Sudan_Nubian,#BF812D,square,None,Central Africa,Farmers
+46,Sudan_Zaghawa,black,square,#BF812D,Central Africa,Pastoralists

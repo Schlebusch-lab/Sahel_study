@@ -1,0 +1,67 @@
+O,Group,Population,N,Colour,Shape,Filling,Latitude,Longitude
+16,Fulani,Mauritania_Fulani_Assaba,16,#66AEBF,x,white,16.247803,-12.676359
+18,Fulani,Senegal_Fulani_Linguere,18,#3B9AB2,circle,white,15.395579,-15.114766
+23,Fulani,Senegal_Halpularen,23,#57A7BA,cross,white,16.5086,-14.221
+74,Fulani,Gambia_Fula,74,#49A0B6,triangle,white,13.3979,-14.3949
+25,Fulani,Guinea_Fulani,25,#74B5C3,diamond,white,11.1233,-12.4999
+22,Fulani,Mali_Fulani_Diafarabe,22,#8CBAA9,inverted_triangle,white,14.138507,-5.01922
+16,Fulani,Mali_Fulani_InnerDelta,16,#C2C460,asterisk,white,14.630433,-4.497783
+19,Fulani,BurkinaFaso_Fulani_Banfora,19,#A7BF85,square_x,white,10.475989,-4.830134
+24,Fulani,BurkinaFaso_Fulani_Tindangou,24,#E9C825,circle_cross,white,11.959674,1.837594
+54,Fulani,BurkinaFaso_Fulani_Ziniare,54,#DDC93C,diamond_cross,white,12.3715,-1.5197
+19,Fulani,Niger_Fulani_Abalak,19,#E5BA11,circle_x,white,15.461267,6.278245
+19,Fulani,Niger_Fulani_Ader,19,#E7C11B,square_cross,white,14.185136,5.097415
+19,Fulani,Niger_Fulani_Balatungur,19,#E58300,triangle,#E58300,13.730922,13.358881
+13,Fulani,Niger_Fulani_Diffa,13,#E2A600,square,#E2A600,13.313756,12.613102
+21,Fulani,Niger_Fulani_Zinder,21,#E2B407,square,white,13.810567,8.986755
+30,Fulani,Cameroon_Fulani_Tcheboua,30,#E58300,circle,#E58300,9.029389,13.18591
+23,Fulani,Chad_Fulani_Bongor,23,#F21A00,circle,white,10.275715,15.411228
+17,Fulani,Chad_Fulani_Linia,17,#EE3D00,diamond,#EE3D00,12.046067,15.306635
+21,West Africa,Senegal_Bedik,21,#004529,square_cross,white,12.539,-12.3102
+50,West Africa,Gambia_GWD,50,#ADDD8E,triangle,white,13.2769,-16.6331
+50,West Africa,Gambia_Jola,50,#78C679,cross,white,13.3979,-14.3949
+50,West Africa,Gambia_Wolof,50,#238443,x,white,13.3979,-14.3949
+50,West Africa,Gambia_Mandinka,50,#41AB5D,diamond,white,13.3979,-14.3949
+50,West Africa,SierraLeone_MSL,50,#ADDD8E,inverted_triangle,white,8.5,-13.2
+15,West Africa,BurkinaFaso_Gurmantche,15,#238443,square,#238443,11.24,0.72
+16,West Africa,BurkinaFaso_Gurunsi,16,#006837,circle_x,white,11.17,-1.14
+17,West Africa,BurkinaFaso_Mossi,17,#004529,square_cross,white,12.59,-1.34
+18,West Africa,IvoryCoast_Ahizi,18,#004529,diamond_cross,white,5.2504,-4.6164
+16,West Africa,IvoryCoast_Yacouba,16,#ADDD8E,asterisk,white,7.7582,-8.0706
+50,West Africa,Ghana_GaAdangbe,50,#006837,square,white,6.0712,-0.2526
+15,West Africa,Mali_Bwa,15,#78C679,circle_cross,white,13.2872,-4.5913
+19,West Africa,Benin_Fon,19,#78C679,circle,#78C679,6.37,2.08
+24,West Africa,Benin_Yoruba,24,#41AB5D,triangle,white,7.3602,2.6045
+24,West Africa,Benin_Bariba,24,#ADDD8E,diamond,white,9.3393,2.6276
+50,West Africa,Nigeria_Igbo,50,#238443,cross,white,6.9224,7.4797
+50,West Africa,Nigeria_YRI,50,#006837,circle,white,7.3783,3.9443
+50,West Africa,Nigeria_ESN,50,#41AB5D,triangle,white,6.5,6
+18,Central Africa,Chad_Daza,18,#543005,asterisk,white,18.6389,21.8418
+4,Central Africa,Chad_Kanembu,4,#8C510A,x,white,14.4493,15.2952
+23,Central Africa,Chad_Laal,23,#BF812D,square_x,white,9.8956,19.9931
+50,Central Africa,Chad_Sara,50,#DFC27D,diamond,white,9.2096,16.9922
+50,Central Africa,Chad_Toubou,50,#543005,inverted_triangle,white,18.2983,19.4787
+19,Central Africa,Sudan_Daju,19,#8C510A,circle_cross,white,12.7381,24.3452
+24,Central Africa,Sudan_NubaKoalib,24,#BF812D,square_cross,white,11.8837,29.9299
+14,Central Africa,Sudan_Nubian,14,#DFC27D,circle_x,white,20.79,30.48
+24,Central Africa,Sudan_Zaghawa,24,#543005,diamond_cross,white,13.0521,23.5103
+21,East Africa,Ethiopia_Gumuz,21,#BF812D,square,white,10.592311,35.717752
+42,East Africa,Ethiopia_Amhara,42,#DFC27D,triangle,#8C510A,10,39
+26,East Africa,Ethiopia_Oromo,26,#543005,square,#DFC27D,8,37
+21,East Africa,Ethiopia_Wolayta,21,#DFC27D,circle,#8C510A,6,37
+42,East Africa,Ethiopia_Somali,42,#8C510A,diamond,#543005,9,42
+15,North Africa,Morocco_BerberAsni,15,#543005,circle,white,31.2427,-7.9859
+10,North Africa,Morocco_BerberBouhria,10,#737373,triangle,white,34.7388,-2.3544
+9,North Africa,Morocco_BerberFiguig,9,#525252,cross,white,32.1102,-1.2322
+50,North Africa,Egypt_Egyptian,50,#BDBDBD,x,white,30.0394,31.2389
+50,Middle East,Lebanon_LebaneseChristian,50,#252525,diamond,white,33.84,35.5056
+31,Middle East,Lebanon_LebaneseDruze,31,#000000,inverted_triangle,white,33.84,35.5056
+43,Middle East,Lebanon_LebaneseMuslim,43,#BDBDBD,square_x,white,33.84,35.5056
+20,Middle East,Yemen_Yemeni,20,#969696,asterisk,white,15.1613,44.2909
+50,South Europe,Europe_TSI,50,#969696,circle,#737373,42.1,12
+50,South Europe,Europe_IBS,50,#252525,square_cross,white,40.38,-3.72
+35,South Europe,Europe_SpainGranada,35,#BDBDBD,circle_cross,white,37.261,-6.9422
+35,South Europe,Europe_SpainHuelva,35,#969696,circle_x,white,37.1773,-3.5988
+35,South Europe,Europe_SouthPortugal,35,#000000,diamond_cross,white,37.6992,-8.0818
+50,Central Europe,Europe_CEU,50,#969696,square,#737373,45.8566,2.3522
+50,North Europe,Europe_GBR,50,#525252,square,white,52.4862,-1.8904

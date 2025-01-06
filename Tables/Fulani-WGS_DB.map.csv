@@ -1,0 +1,28 @@
+N,Group,Population,Colour,Shape,Filling,Latitude,Longitude,,
+16,This study,Mauritania_Fulani_Assaba,#66AEBF,x,white,16.247803,-12.676359,None,white
+18,This study,Senegal_Fulani_Linguere,#3B9AB2,circle,white,15.395579,-15.114766,None,white
+23,This study,Senegal_Halpularen,#57A7BA,cross,white,16.5086,-14.221,None,white
+74,This study,Gambia_Fula,#49A0B6,triangle,white,13.3979,-14.3949,None,white
+25,This study,Guinea_Fulani,#74B5C3,diamond,white,11.1233,-12.4999,None,white
+22,This study,Mali_Fulani_Diafarabe,#8CBAA9,inverted_triangle,white,14.138507,-5.01922,None,white
+16,This study,Mali_Fulani_InnerDelta,#C2C460,asterisk,white,14.630433,-4.497783,None,white
+19,This study,BurkinaFaso_Fulani_Banfora,#A7BF85,square_x,white,10.475989,-4.830134,None,white
+24,This study,BurkinaFaso_Fulani_Tindangou,#E9C825,circle_cross,white,11.959674,1.837594,None,white
+54,This study,BurkinaFaso_Fulani_Ziniare,#DDC93C,diamond_cross,white,12.3715,-1.5197,None,white
+19,This study,Niger_Fulani_Abalak,#E5BA11,circle_x,white,15.461267,6.278245,None,white
+19,This study,Niger_Fulani_Ader,#E7C11B,square_cross,white,14.185136,5.097415,None,white
+19,This study,Niger_Fulani_Balatungur,#E58300,triangle,#E58300,13.730922,13.358881,#E58300,#E58300
+13,This study,Niger_Fulani_Diffa,#E2A600,square,#E2A600,13.313756,12.613102,#E2A600,#E2A600
+21,This study,Niger_Fulani_Zinder,#E2B407,square,white,13.810567,8.986755,None,white
+30,This study,Cameroon_Fulani_Tcheboua,#E58300,circle,#E58300,9.029389,13.18591,#E58300,#E58300
+23,This study,Chad_Fulani_Bongor,#F21A00,circle,white,10.275715,15.411228,None,white
+17,This study,Chad_Fulani_Linia,#EE3D00,diamond,#EE3D00,12.046067,15.306635,#EE3D00,#EE3D00
+3, D'Atanasio et al. 2023,WGS_Senegal_Fulani,black,circle_dot,#3B9AB2,14.2,-14.7,circle,#3B9AB2
+1, D'Atanasio et al. 2023,WGS_Guinea_Fulani,black,hex_dot,#74B5C3,11.3,-12.3,diamond,#74B5C3
+2, D'Atanasio et al. 2023,WGS_BurkinaFaso_Fulani,black,square_dot,#A7BF85,12.2,-2.14,square_x,#A7BF85
+5, D'Atanasio et al. 2023,WGS_Ghana_Fulani,black,triangle_dot,#8CBAA9,10.6,-1.1,inverted_triangle,#8CBAA9
+1, D'Atanasio et al. 2023,WGS_Benin_Fulani,black,circle_dot,#DDC93C,11.3,2.5,circle_x,#DDC93C
+4, D'Atanasio et al. 2023,WGS_Nigeria_Fulani,black,hex_dot,#E7C11B,12.19,8.88,square_cross,#E7C11B
+3, D'Atanasio et al. 2023,WGS_Cameroon_Fulani,black,square_dot,#E58300,12.1,14.8,circle,#E58300
+3, D'Atanasio et al. 2023,WGS_Niger_Fulani,black,triangle_dot,#E2B407,14.04,11.98,square,#E2B407
+1, D'Atanasio et al. 2023,WGS_Chad_Fulani,black,circle_dot,#F21A00,12.7,15,circle,#F21A00
