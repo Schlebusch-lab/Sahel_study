@@ -5,7 +5,7 @@
 Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 
 bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
-###### On the right side of the interactive plots, there are different tools for scrolling, zooming in, and zooming out with the mouse (using Box Zoom, Wheel Zoom, Wheel Zoom on the y-axis, Zoom in on the x-axis, Undo, and Reset) or saving the plots as figures in high resolution (*.svg format). 
+###### On the top-right side of the figures of the interactive plots, there are different tools for scrolling, zooming in, and zooming out with the mouse (using Box Zoom, Wheel Zoom, Wheel Zoom on the y-axis, Zoom in on the x-axis, Undo, and Reset) or saving the plots as figures in high resolution (*.svg format). 
 
 
 ### Main Figures
