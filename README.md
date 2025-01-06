@@ -1,4 +1,4 @@
-## This repository contains online material from Fortes-Lima et al. 2024 ***bioRxiv***.
+## This repository contains online material one of the projects in the Sahel belt.
 ####
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.
