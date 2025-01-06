@@ -5,7 +5,7 @@
 Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 
 bioRxiv 2024. doi: https://doi.org/10.1101/2024.06.22.600206
 
-##### Scripts
+##### - Scripts:
 All the information and command lines to run the plotting scripts are described in:&emsp;[scripts_README](https://github.com/Schlebusch-lab/Sahel_study/blob/main/scripts_README.md)
 
 ### Main Figures
