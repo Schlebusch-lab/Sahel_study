@@ -29,36 +29,34 @@ remotes::install_github("JosephCrispell/basicPlotteR")
 
 # Main Figures #
 
-### Main Figure 1 ###
-
-#### Figure 1A | Map only for Fulani populations. ####
+#### Figure 1 | PCA and PCA-UMAP results ####
 ```
+### Figures 1A-E | PCA results to explore the genetic diversity among studied Fulani population.
+
+DB="Tables/Only-Fulani_DB"
+python3 scripts/bokeh_Figure_1A-E.py --output 01-Main_Figures/Figure_1A-E \
+ --input_A ${DB}.map.csv --input_B ${DB}.pca.evec -p ${DB}_pca.csv
+
+Figures 1F-G | PCA-UMAP on the basis of Fulani and other Western and Central African populations
+python3 scripts/bokeh_Figure_1F-G.py --input Tables/Fulani_PCA-UMAP_table.txt --output 01-Main_Figures/Figure_1F-G
+ --pattern_A Tables/Fulani_PCA-UMAP_pattern_A.csv --pattern_B Tables/Fulani_PCA-UMAP_pattern_B.csv
+
+
 ```
-
-python3 scripts/bokeh_interactive_map.py -i Patterns/Only-BSP_Groups_imputation_df.csv -o ${Folder}/Fig_3/Fig_3map -w 1000 -t "" -a ""
-
-
-
-#### Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations. ####
-
-Folder="Main_Figures"; DB="Only-African_Groups"
-python3 ${Folder}/scripts/bokeh_interactive_map.py -i 01-Maps/Map_${DB}_df.csv -o ${Folder}/Fig_1/Fig_1a -w 2100 -t "" -a ""
-
-
-### Main Figure 2 ###
+### Figure 2 ###
 ```
 Table_A='Tables/Fulani-World_DB'
-Table_C='Tables/Fulani_aDNA-Modern_DB'
+Table_B='Tables/Fulani_aDNA-Modern_DB'
 
-###  Figure 2A and 2C | PC1 and PC2 for modern Fulani and reference populations and for ancient individuals.
+###  Figures 2A and 2C | PC1 and PC2 for modern Fulani and reference populations and for ancient individuals.
 
-python3 scripts/bokeh_Figure_2A-2C.py --input_A ${Table_A}.pca.evec --input_C ${Table_C}.pca.evec \
- --pattern_A ${Table_A}_pca.csv --pattern_C ${Table_C}_grey.csv -o 01-Main_Figures/Figure_2A-C
+python3 scripts/bokeh_Figure_2A-C.py --input_A ${Table_A}.pca.evec --input_B ${Table_B}.pca.evec \
+ --pattern_A ${Table_A}_pca.csv --pattern_B ${Table_B}_grey.csv -o 01-Main_Figures/Figure_2A-C
 
 ###  Figure 2B | PC1 and PC3 for modern Fulani and reference populations and for ancient individuals.
 
-python3 scripts/bokeh_Figure_2B.py --input_A ${Table_A}.pca.evec --input_C ${Table_C}.pca.evec \
- --pattern_A ${Table_A}_pca.csv --pattern_C ${Table_C}_grey.csv -o 01-Main_Figures/Figure_2B
+python3 scripts/bokeh_Figure_2B.py --input_A ${Table_A}.pca.evec --input_B ${Table_B}.pca.evec \
+ --pattern_A ${Table_A}_pca.csv --pattern_B ${Table_B}_grey.csv -o 01-Main_Figures/Figure_2B
 
 ###  Figure 2D | ADMIXTURE results at K=6.
 
