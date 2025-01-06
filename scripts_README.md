@@ -1,9 +1,9 @@
 
 This README gives information about how to run the plotting scripts included in this repository.
-Scripts were run using Python v3.8.6 (in particular the library Bokeh v3.1.1) and R v4.4.1.
+Scripts were run using Python v3.8.6 (in particular, the library Bokeh v3.1.1) and R v4.4.1.
 
-All the tables are provided in the repository as well as additional information to run all the scripts. 
-Please, first check that you have installed the Python lybraries included in the scripts and R packages (rworldmap and plotrix).
+The repository provides all the tables and additional information to run all the scripts with a few command lines. 
+Please, first check that you have installed the Python libraries included in the scripts and R packages (rworldmap and plotrix).
 
 ```
 git clone https://github.com/Schlebusch-lab/Sahel_study.git
@@ -16,6 +16,8 @@ python3 scripts/bokeh_Figure_2B.py --help
 ls scripts/*.py | while read line; do python3 ${line} --help; done
 
 # In R
+library(admixtools)
+library(plotly)
 library(rworldmap)
 library(plotrix)
 library(basicPlotteR)
@@ -63,7 +65,7 @@ python3 scripts/bokeh_Figure_2B.py --input_A ${Table_A}.pca.evec --input_C ${Tab
 Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
  Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D
 
-[Optional: Include the label for each studied population by using the sufix "With_Labels" in the output name.]
+[Optional: Include the label for each studied population by using the suffix "With_Labels" in the output name.]
 Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
  Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D_With_Labels
 
@@ -73,7 +75,7 @@ Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
 python3 scripts/bokeh_Figure_4A.py --output "01-Main_Figures/Figure_4A"
 
 ```
-### Figures 4B and S21 | Categories of ROH length on the basis of the studied populations. ###
+### Figures 4B and S21 | Categories of ROH length based on the studied populations. ###
 ```
 Table_A="Tables/Only-Fulani_DB.ROH_Class_table.txt"
 Table_B="Tables/Fulani-World_DB.ROH_Class_table.txt"
@@ -102,18 +104,18 @@ python3 scripts/bokeh_Figure_S6.py --output 02-Suppl_Figures/Figure_S6 \
 Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" \
  Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A
 
-[Optional: Include label for each population by using the sufix "With_Labels" in the output name.]
+[Optional: Include the label for each population by using the suffix "With_Labels" in the output name.]
 Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" \
  Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A_With_Labels
 
 ```
-### Figure S13 | PCA on the basis of modern and ancient individuals. ###
+### Figure S13 | PCA based on modern and ancient individuals. ###
 ```
 DB='Tables/Fulani_aDNA-Modern_DB'
 python3 scripts/bokeh_Figure_S13.py -i ${DB}.evec -p ${DB}_pca.csv -o 02-Suppl_Figures/Figure_S13
 
 ```
-### Figure S14 | ADMIXTURE results at K=6 on the basis modern and aDNA individuals. ###
+### Figure S14 | ADMIXTURE results at K=6 based on modern and aDNA individuals. ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.r
 
@@ -121,7 +123,7 @@ Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.r
 Fig='02-Suppl_Figures/Figure_S14'; pdftoppm ${Fig}.pdf ${Fig} -png -r 300
 
 ```
-### Figure S15 | ADMIXTURE results at K=8 on the basis modern and aDNA individuals. ###
+### Figure S15 | ADMIXTURE results at K=8 based on modern and aDNA individuals. ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K8.r
 
@@ -143,7 +145,7 @@ pdf("02-Suppl_Figures/Figure_S16.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S16.html")
@@ -163,7 +165,7 @@ pdf("02-Suppl_Figures/Figure_S17.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S17.html")
@@ -183,7 +185,7 @@ pdf("02-Suppl_Figures/Figure_S18.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S18.html")
@@ -203,7 +205,7 @@ pdf("02-Suppl_Figures/Figure_S19.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S19.html")
@@ -213,5 +215,4 @@ dev.off()
 #### Contact person of this repository:
 ##### Cesar Fortes-Lima (Github account: https://github.com/cesarforteslima). Emails: cfortes2@jh.edu; cesar.fortes-lima@ebc.uu.se
 More scripts, tables and figures are available upon request.
-
 
