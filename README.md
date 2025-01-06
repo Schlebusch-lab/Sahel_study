@@ -13,7 +13,7 @@ bioRxiv 2024.06.22.600206. doi: https://doi.org/10.1101/2024.06.22.600206
 
 ###### &emsp;[Figure 1F-G | PCA plot to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_1F-G.html)
 
-###### &emsp;[Figure 2A and 2C | PC1 and PC2 for modern Fulani and reference populations and for ancient individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2A-2C.html)
+###### &emsp;[Figure 2A and 2C | PC1 and PC2 for modern Fulani and reference populations and for ancient individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2A-C.html)
 
 ###### &emsp;[Figure 2B | PC1 and PC3 for modern Fulani and reference populations and for ancient individuals.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_2B.html)
 
