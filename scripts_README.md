@@ -2,20 +2,46 @@
 This README gives information about how to run the plotting scripts included in this repository.
 Scripts were run using Python v3.8.6 (in particular the library Bokeh v3.1.1) and R v4.4.1.
 
+All the tables are provided in the repository as well as additional information to run all the scripts. 
+Please, first check that you have installed the Python lybraries included in the scripts and R packages (rworldmap and plotrix).
+
+```
+git clone https://github.com/Schlebusch-lab/Sahel_study.git
+cd Sahel_study
+
+# Check that you don't have an error message after using:
+python3 scripts/bokeh_Figure_2B.py --help
+
+[Optional for all the scripts]
+ls scripts/*.py | while read line; do python3 ${line} --help; done
+
+# In R
+library(rworldmap)
+library(plotrix)
+library(basicPlotteR)
+
+# If you don't have basicPlotteR, you can install it as follows:
+remotes::install_github("JosephCrispell/basicPlotteR")
+
+```
+
 # Main Figures #
 
 ### Main Figure 1 ###
 
 #### Figure 1A | Map only for Fulani populations. ####
 ```
-python3 ${Folder}/scripts/bokeh_interactive_map.py -i Patterns/Only-BSP_Groups_imputation_df.csv -o ${Folder}/Fig_3/Fig_3map -w 1000 -t "" -a ""
 ```
 
+python3 scripts/bokeh_interactive_map.py -i Patterns/Only-BSP_Groups_imputation_df.csv -o ${Folder}/Fig_3/Fig_3map -w 1000 -t "" -a ""
+
+
+
 #### Figure 1F | PCA plot to explore the genetic diversity among studied Fulani populations. ####
-```
+
 Folder="Main_Figures"; DB="Only-African_Groups"
 python3 ${Folder}/scripts/bokeh_interactive_map.py -i 01-Maps/Map_${DB}_df.csv -o ${Folder}/Fig_1/Fig_1a -w 2100 -t "" -a ""
-```
+
 
 ### Main Figure 2 ###
 ```
@@ -40,22 +66,21 @@ Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
 [Optional: Include the label for each studied population by using the sufix "With_Labels" in the output name.]
 Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
  Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D_With_Labels
-```
 
+```
 ### Figures 4A and S20 | Effective population sizes (Ne) estimated for each Fulani population. ###
 ```
 python3 scripts/bokeh_Figure_4A.py --output "01-Main_Figures/Figure_4A"
 
 ```
-
 ### Figures 4B and S21 | Categories of ROH length on the basis of the studied populations. ###
 ```
 Table_A="Tables/Only-Fulani_DB.ROH_Class_table.txt"
 Table_B="Tables/Fulani-World_DB.ROH_Class_table.txt"
 
 python3 scripts/bokeh_Figure_S21.py --input_A $Table_A --input_B $Table_B -o "02-Suppl_Figures/Figure_S21"
-```
 
+```
 
 # Supplementary Figures #
 
@@ -63,15 +88,15 @@ python3 scripts/bokeh_Figure_S21.py --input_A $Table_A --input_B $Table_B -o "02
 ```
 python3 scripts/bokeh_Figure_S3.py --input_A Tables/Fulani-World_DB.csv \
  --input_B Tables/Fulani_aDNA-Modern_DB.csv --output 02-Suppl_Figures/Figure_S3
-```
 
+```
 ### Figure S6 | Geographical distribution and PCA of Fulani and reference populations. ###
 ```
 DB="Tables/Fulani-WGS_DB"
 python3 scripts/bokeh_Figure_S6.py --output 02-Suppl_Figures/Figure_S6 \
  --input_A ${DB}.map.csv --input_B ${DB}.pca.evec -p ${DB}_pca.csv
-```
 
+```
 ### Figure S9A | ADMIXTURE results at K=7 using the projection mode. ###
 ```
 Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" \
@@ -80,30 +105,30 @@ Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" 
 [Optional: Include label for each population by using the sufix "With_Labels" in the output name.]
 Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" \
  Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A_With_Labels
-```
 
+```
 ### Figure S13 | PCA on the basis of modern and ancient individuals. ###
 ```
 DB='Tables/Fulani_aDNA-Modern_DB'
 python3 scripts/bokeh_Figure_S13.py -i ${DB}.evec -p ${DB}_pca.csv -o 02-Suppl_Figures/Figure_S13
-```
 
+```
 ### Figure S14 | ADMIXTURE results at K=6 on the basis modern and aDNA individuals. ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.r
 
 [Optional: Save plot in PNG format.]
 Fig='02-Suppl_Figures/Figure_S14'; pdftoppm ${Fig}.pdf ${Fig} -png -r 300
-```
 
+```
 ### Figure S15 | ADMIXTURE results at K=8 on the basis modern and aDNA individuals. ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K8.r
 
 [Optional: Save plot in PNG format.]
 Fig='02-Suppl_Figures/Figure_S15'; pdftoppm ${Fig}.pdf ${Fig} -png -r 300
-```
 
+```
 ### Figure S16 | Admixture graph for Fulani from Assaba (Mauritania) and reference populations. ###
 ```
 # In R
@@ -122,8 +147,8 @@ dev.off()
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S16.html")
-```
 
+```
 ### Figure S17 | Admixture graph for Fulani from Banfora (Burkina Faso) and reference populations. ###
 ```
 # In R
@@ -142,8 +167,8 @@ dev.off()
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S17.html")
-```
 
+```
 ### Figure S18 | Admixture graph for Fulani from Abalak (Niger) and reference populations. ###
 ```
 # In R
@@ -162,8 +187,8 @@ dev.off()
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S18.html")
-```
 
+```
 ### Figure S19 | Admixture graph for Fulani from Linia (Chad) and reference populations. ###
 ```
 # In R
@@ -182,10 +207,11 @@ dev.off()
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S19.html")
-```
 
+```
 
 #### Contact person of this repository:
 ##### Cesar Fortes-Lima (Github account: https://github.com/cesarforteslima). Emails: cfortes2@jh.edu; cesar.fortes-lima@ebc.uu.se
 More scripts, tables and figures are available upon request.
+
 
