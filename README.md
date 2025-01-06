@@ -1,4 +1,4 @@
-## This repository contains online material for one of the projects in the Sahel belt.
+### This repository contains online material for one of the projects in the Sahel belt.
 ####
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.
