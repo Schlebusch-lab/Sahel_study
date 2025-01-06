@@ -1,5 +1,6 @@
 
 This README gives information about how to run the plotting scripts included in this repository.
+Scripts were run using Python v3.8.6 (in particular the library Bokeh v3.1.1) and R v4.4.1.
 
 # Main Figures #
 
@@ -15,7 +16,6 @@ python3 ${Folder}/scripts/bokeh_interactive_map.py -i Patterns/Only-BSP_Groups_i
 Folder="Main_Figures"; DB="Only-African_Groups"
 python3 ${Folder}/scripts/bokeh_interactive_map.py -i 01-Maps/Map_${DB}_df.csv -o ${Folder}/Fig_1/Fig_1a -w 2100 -t "" -a ""
 ```
-
 
 ### Main Figure 2 ###
 ```
@@ -35,42 +35,60 @@ python3 scripts/bokeh_Figure_2B.py --input_A ${Table_A}.pca.evec --input_C ${Tab
 ###  Figure 2D | ADMIXTURE results at K=6.
 
 Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
-Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D
+ Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D
 
 [Optional: Include the label for each studied population by using the sufix "With_Labels" in the output name.]
 Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
-Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D_With_Labels
+ Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D_With_Labels
 ```
+
+### Figures 4A and S20 | Effective population sizes (Ne) estimated for each Fulani population. ###
+```
+python3 scripts/bokeh_Figure_4A.py --output "01-Main_Figures/Figure_4A"
+
+```
+
+### Figures 4B and S21 | Categories of ROH length on the basis of the studied populations. ###
+```
+Table_A="Tables/Only-Fulani_DB.ROH_Class_table.txt"
+Table_B="Tables/Fulani-World_DB.ROH_Class_table.txt"
+
+python3 scripts/bokeh_Figure_S21.py --input_A $Table_A --input_B $Table_B -o "02-Suppl_Figures/Figure_S21"
+```
+
 
 # Supplementary Figures #
 
-### Suppl Figure S3 ###
+### Figure S3 | Distribution of modern and ancient populations included in this study. ###
 ```
 python3 scripts/bokeh_Figure_S3.py --input_A Tables/Fulani-World_DB.csv \
---input_B Tables/Fulani_aDNA-Modern_DB.csv --output Suppl_Figures/Figure_S3
+ --input_B Tables/Fulani_aDNA-Modern_DB.csv --output 02-Suppl_Figures/Figure_S3
 ```
 
-### Suppl Figure S6 ###
-### Figure S6A ###
+### Figure S6 | Geographical distribution and PCA of Fulani and reference populations. ###
 ```
-python3 ${Folder}/scripts/bokeh_interactive_map.py -i 01-Maps/Map_${DB}_df.csv -o ${Folder}/Fig_1/Fig_1a -w 2100 -t "" -a ""
+DB="Tables/Fulani-WGS_DB"
+python3 scripts/bokeh_Figure_S6.py --output 02-Suppl_Figures/Figure_S6 \
+ --input_A ${DB}.map.csv --input_B ${DB}.pca.evec -p ${DB}_pca.csv
 ```
 
-### Suppl Figure S9A ###
+### Figure S9A | ADMIXTURE results at K=7 using the projection mode. ###
 ```
-Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A
+Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" \
+ Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A
 
 [Optional: Include label for each population by using the sufix "With_Labels" in the output name.]
-Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A_With_Labels
+Rscript scripts/piechartMap_Figure_S9A.r "Figure S9A. ADMIXTURE results at K=7" \
+ Tables/ADMIXTURE_Fulani-World_DB.K7.Q.csv 02-Suppl_Figures/Figure_S9A_With_Labels
 ```
 
-### Suppl Figure S13 ###
+### Figure S13 | PCA on the basis of modern and ancient individuals. ###
 ```
 DB='Tables/Fulani_aDNA-Modern_DB'
 python3 scripts/bokeh_Figure_S13.py -i ${DB}.evec -p ${DB}_pca.csv -o 02-Suppl_Figures/Figure_S13
 ```
 
-### Suppl Figure S14 ###
+### Figure S14 | ADMIXTURE results at K=6 on the basis modern and aDNA individuals. ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.r
 
@@ -78,7 +96,7 @@ Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.r
 Fig='02-Suppl_Figures/Figure_S14'; pdftoppm ${Fig}.pdf ${Fig} -png -r 300
 ```
 
-### Suppl Figure S15 ###
+### Figure S15 | ADMIXTURE results at K=8 on the basis modern and aDNA individuals. ###
 ```
 Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K8.r
 
@@ -86,4 +104,88 @@ Rscript scripts/ADMIXTURE_Fulani_aDNA-Modern_DB.K8.r
 Fig='02-Suppl_Figures/Figure_S15'; pdftoppm ${Fig}.pdf ${Fig} -png -r 300
 ```
 
+### Figure S16 | Admixture graph for Fulani from Assaba (Mauritania) and reference populations. ###
+```
+# In R
+library(admixtools)
+library(plotly)
+
+pop <- "Mauritania_Fulani_Assaba"
+winner_graph <- read.table(paste0("Tables/Admixture_graphs/",pop,"_edges.tsv"), sep="\t", header=T)
+
+# plotly_graph(winner_graph)
+pdf("02-Suppl_Figures/Figure_S16.pdf", height=16, width=14)
+plot_graph(winner_graph, textsize =5)
+dev.off()
+
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
+# p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
+# htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S16.html")
+```
+
+### Figure S17 | Admixture graph for Fulani from Banfora (Burkina Faso) and reference populations. ###
+```
+# In R
+library(admixtools)
+library(plotly)
+
+pop <- "BurkinaFaso_Fulani_Banfora"
+winner_graph <- read.table(paste0("Tables/Admixture_graphs/",pop,"_edges.tsv"), sep="\t", header=T)
+
+# plotly_graph(winner_graph)
+pdf("02-Suppl_Figures/Figure_S17.pdf", height=16, width=14)
+plot_graph(winner_graph, textsize =5)
+dev.off()
+
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
+# p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
+# htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S17.html")
+```
+
+### Figure S18 | Admixture graph for Fulani from Abalak (Niger) and reference populations. ###
+```
+# In R
+library(admixtools)
+library(plotly)
+
+pop <- "Niger_Fulani_Abalak"
+winner_graph <- read.table(paste0("Tables/Admixture_graphs/",pop,"_edges.tsv"), sep="\t", header=T)
+
+# plotly_graph(winner_graph)
+pdf("02-Suppl_Figures/Figure_S18.pdf", height=16, width=14)
+plot_graph(winner_graph, textsize =5)
+dev.off()
+
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
+# p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
+# htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S18.html")
+```
+
+### Figure S19 | Admixture graph for Fulani from Linia (Chad) and reference populations. ###
+```
+# In R
+library(admixtools)
+library(plotly)
+
+pop <- "Chad_Fulani_Linia"
+winner_graph <- read.table(paste0("Tables/Admixture_graphs/",pop,"_edges.tsv"), sep="\t", header=T)
+
+# plotly_graph(winner_graph)
+pdf("02-Suppl_Figures/Figure_S19.pdf", height=16, width=14)
+plot_graph(winner_graph, textsize =5)
+dev.off()
+
+# This is the figure obtained before bootstrapping using the qpgraph_resample_snps fuction as follows.
+# fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
+# p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
+# htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S19.html")
+```
+
+
+#### Contact person of this repository:
+##### Cesar Fortes-Lima (Github account: https://github.com/cesarforteslima). Emails: cfortes2@jh.edu; cesar.fortes-lima@ebc.uu.se
+More scripts, tables and figures are available upon request.
 
