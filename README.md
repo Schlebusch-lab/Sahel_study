@@ -85,6 +85,7 @@ Evolutionary Biology Centre, Uppsala University
 Norbyvägen 18C, SE-752 36 Uppsala, Sweden
 ##
 #### Contact person of this repository:
-##### Cesar Fortes-Lima, PhD. Uppsala University, Sweden. Email: cesar.fortes-lima@ebc.uu.se
+##### Cesar Fortes-Lima (Github account: https://github.com/cesarforteslima). Emails: cfortes2@jh.edu; cesar.fortes-lima@ebc.uu.se
+
 More scripts and figures are available upon request.
 
