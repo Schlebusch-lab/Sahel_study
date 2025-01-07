@@ -3,7 +3,7 @@ This README gives information about how to run the plotting scripts included in 
 Scripts were run using Python v3.8.6 (in particular, the library Bokeh v3.1.1) and R v4.4.1.
 
 The repository provides all the tables and additional information to run all the scripts with a few command lines. 
-Please, first check that you have installed the Python libraries included in the scripts and R packages (rworldmap and plotrix).
+First, please check that you have installed all the Python and R libraries/packages included in the scripts.
 
 ```
 git clone https://github.com/Schlebusch-lab/Sahel_study.git
@@ -75,10 +75,9 @@ python3 scripts/bokeh_Figure_4A.py --output "01-Main_Figures/Figure_4A"
 ```
 ### Figures 4B and S21 | Categories of ROH length based on the studied populations. ###
 ```
-Table_A="Tables/Only-Fulani_DB.ROH_Class_table.txt"
-Table_B="Tables/Fulani-World_DB.ROH_Class_table.txt"
-
-python3 scripts/bokeh_Figure_S21.py --input_A $Table_A --input_B $Table_B -o "02-Suppl_Figures/Figure_S21"
+python3 scripts/bokeh_Figure_S21.py --output "02-Suppl_Figures/Figure_S21" \
+ --input_A "Tables/Only-Fulani_DB.ROH_Class_table.txt" \
+ --input_B "Tables/Fulani-World_DB.ROH_Class_table.txt"
 
 ```
 
