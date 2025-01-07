@@ -83,6 +83,12 @@ Genome-wide genotype datasets of Fulani populations generated in this study are 
 Human Evolution Program, Department of Organismal Biology, 
 Evolutionary Biology Centre, Uppsala University
 Norbyvägen 18C, SE-752 36 Uppsala, Sweden
+
+##### Prof. Viktor Černý. Email: cerny@arup.cas.cz
+Archaeogenetics Laboratory, 
+Institute of Archaeology of the Academy of Sciences of the Czech Republic, 
+Letenská 1, 118 00 Prague, Czech Republic
+
 ##
 #### Contact person of this repository:
 ##### Cesar Fortes-Lima (https://github.com/cesarforteslima). Emails: cfortes2@jh.edu; cesar.fortes-lima@ebc.uu.se
