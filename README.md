@@ -71,7 +71,7 @@ All the information and command lines to run the plotting scripts are described 
 #
 #### EGA accessory numbers for the datasets presented in this study:&emsp;[EGAS50000000451](https://ega-archive.org/studies/EGAS50000000451) 
 
-Genome-wide genotype datasets of Fulani populations generated in this study are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers:&emsp;[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653) and &emsp;[EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654) datasets).
+Genome-wide genotype datasets of Fulani populations generated in this study are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers:&emsp;[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653)  and &emsp;[EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654)  datasets).
 
 ##### Sahel Data Access Committee EGA ID: &emsp;[EGAC50000000290](https://ega-archive.org/dacs/EGAC50000000290). 
 
