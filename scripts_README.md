@@ -217,7 +217,8 @@ dev.off()
 ### Figure S21 | Categories of ROH length on the basis of the studied populations. ###
 ```
 python3 scripts/bokeh_Figure_S21.py --output "02-Suppl_Figures/Figure_S21"
- --input_A "Tables/Only-Fulani_DB.ROH_Class_table.txt" --input_B "Tables/Fulani-World_DB.ROH_Class_table.txt"
+ --input_A "Tables/Only-Fulani_DB.ROH_Class_table.txt" \
+ --input_B "Tables/Fulani-World_DB.ROH_Class_table.txt"
 
 ```
 ### Figure S22 | Violin plots for ROH parameters estimated for each studied population. ###
