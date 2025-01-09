@@ -23,7 +23,7 @@ All the information and command lines to run the plotting scripts are described 
 
 ###### &emsp;[Figure 3A | Contour map based on ADMIXTURE results at K=7.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_3A.pdf)
 
-###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4A.html)
+###### &emsp;[Figure 4A and S20 | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4A.html)
 
 ###### &emsp;[Figures 4B and S21 | Categories of ROH length on the basis of the Fulani-Only dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S21.html)
 
