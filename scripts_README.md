@@ -3,7 +3,7 @@ This README gives information about how to run the plotting scripts included in 
 Scripts were run using Python v3.8.6 (in particular, the library Bokeh v3.1.1) and R v4.4.1.
 
 The repository provides all the tables and additional information to run all the scripts with a few command lines. 
-First, please check that you have installed all the Python and R libraries/packages included in the scripts.
+Please, first check that you have installed the Python libraries included in the scripts and R packages (rworldmap and plotrix).
 
 ```
 git clone https://github.com/Schlebusch-lab/Sahel_study.git
@@ -27,7 +27,7 @@ remotes::install_github("JosephCrispell/basicPlotteR")
 
 ```
 
-# Main Figures #
+# - Main Figures #
 
 #### Figure 1 | PCA and PCA-UMAP results ####
 ```
@@ -81,7 +81,7 @@ python3 scripts/bokeh_Figure_S21.py --output "02-Suppl_Figures/Figure_S21" \
 
 ```
 
-# Supplementary Figures #
+# - Supplementary Figures #
 
 ### Figure S3 | Distribution of modern and ancient populations included in this study. ###
 ```
@@ -148,7 +148,7 @@ pdf("02-Suppl_Figures/Figure_S16.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
+# Optional: for bootstrapping apply the qpgraph_resample_snps function.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S16.html")
@@ -168,7 +168,7 @@ pdf("02-Suppl_Figures/Figure_S17.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
+# Optional: for bootstrapping apply the qpgraph_resample_snps function.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S17.html")
@@ -188,7 +188,7 @@ pdf("02-Suppl_Figures/Figure_S18.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
+# Optional: for bootstrapping apply the qpgraph_resample_snps function.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S18.html")
@@ -208,7 +208,7 @@ pdf("02-Suppl_Figures/Figure_S19.pdf", height=16, width=14)
 plot_graph(winner_graph, textsize =5)
 dev.off()
 
-# This is the figure obtained before bootstrapping using the qpgraph_resample_snps function as follows.
+# Optional: for bootstrapping apply the qpgraph_resample_snps function.
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S19.html")
