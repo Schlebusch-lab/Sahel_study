@@ -37,7 +37,7 @@ parser = argparse.ArgumentParser(description='Parse some args')
 parser.add_argument('--input_A', default='Tables/Fulani_aDNA-Modern_DB.evec') #assumes eval in same place
 parser.add_argument('--input_B', default='Tables/Fulani_aDNA-Modern_DB.evec') #assumes eval in same place
 parser.add_argument('--pattern_A', default='Tables/Fulani_aDNA-Modern_DB_pca.csv')
-parser.add_argument('--pattern_C', default='Tables/Fulani_aDNA-Modern_DB_grey.csv')
+parser.add_argument('--pattern_B', default='Tables/Fulani_aDNA-Modern_DB_grey.csv')
 parser.add_argument('-o', '--output', default='02-Suppl_Figures/Main_Figure_2C')
 # Optional
 parser.add_argument('--title', default='Main Figure 2C | PCA for modern populations')
@@ -49,7 +49,7 @@ args = parser.parse_args()
 # Table_B='Tables/Fulani_aDNA-Modern_DB'
 #
 # python3 scripts/bokeh_Figure_2A-C.py --input_A ${Table_A}.pca.evec --input_B ${Table_B}.pca.evec \
-# --pattern_A ${Table_A}_pca.csv --pattern_C ${Table_B}_grey.csv -o 01-Main_Figures/Figure_2A-C
+# --pattern_A ${Table_A}_pca.csv --pattern_B ${Table_B}_grey.csv -o 01-Main_Figures/Figure_2A-C
 #
 
 ####################
@@ -142,13 +142,13 @@ plot_a.yaxis.major_tick_line_width= 5
 ncolumn=int((len(labels))/3)
 # print "populations=",len(fids),"pop/column",ncolumn
 legend1 = Legend(
-    items=leg_1[0:ncolumn], location=(0, 30))
+    items=leg_1[0:(ncolumn-4)], location=(0, 30))
 
 legend2 = Legend(
-    items=leg_1[ncolumn:ncolumn*2], location=(0, 30))
+    items=leg_1[(ncolumn)-4:(ncolumn*2)-2], location=(0, 30))
 
 legend3 = Legend(
-    items=leg_1[ncolumn*2:], location=(0, 30))
+    items=leg_1[(ncolumn*2)-2:], location=(0, 30))
 
 plot_a.add_layout(legend1, 'right')
 plot_a.add_layout(legend2, 'right')
@@ -223,7 +223,7 @@ fids = source.FID.unique()
 output_file(args.output+'.html', mode='inline')
 
 # Set your own pattern
-ifile  = open(args.pattern_C, 'r')
+ifile  = open(args.pattern_B, 'r')
 pattern = csv.reader(ifile)
 sizes, labels, colours, markers, filling = [], [], [], [], []
 
