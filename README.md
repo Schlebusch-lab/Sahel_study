@@ -1,9 +1,8 @@
 ### This repository contains online material for our study of Fulani populations.
 ####
 ##### - Citation:
-***Population History and Admixture of the Fulani People from the Sahel***.
-
-Cesar A. Fortes-Lima, Mame Y. Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 
+***Population History and Admixture of the Fulani People from the Sahel***.\
+Cesar A. Fortes-Lima, Mame Y. Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch.\ 
 doi: https://doi.org/10.1101/2024.06.22.600206
 
 ##### - Scripts:
