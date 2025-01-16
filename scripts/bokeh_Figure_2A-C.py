@@ -276,13 +276,13 @@ plot_c.yaxis.major_tick_line_width= 5
 ncolumn=int((len(labels))/3+3)
 # print "populations=",len(fids),"pop/column",ncolumn
 legend1 = Legend(
-    items=leg_1[0:ncolumn], location=(0, 30))
+    items=leg_1[ncolumn*2:], location=(0, 30))
 
 legend2 = Legend(
-    items=leg_1[ncolumn:ncolumn*2], location=(0, 30))
+    items=leg_1[0:ncolumn], location=(0, 30))
 
 legend3 = Legend(
-    items=leg_1[ncolumn*2:], location=(0, 30))
+    items=leg_1[ncolumn:ncolumn*2], location=(0, 30))
 
 plot_c.add_layout(legend1, 'right')
 plot_c.add_layout(legend2, 'right')
