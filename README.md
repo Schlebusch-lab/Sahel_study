@@ -1,16 +1,16 @@
-### This repository contains online material for our study of Fulani populations from the Sahel belt.
+### This repository contains online material for our study of Fulani populations.
 ####
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.
 
-Cesar A. Fortes-Lima, Mame Yoro Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 
-bioRxiv 2024. doi: https://doi.org/10.1101/2024.06.22.600206
+Cesar A. Fortes-Lima, Mame Y. Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch. 
+doi: https://doi.org/10.1101/2024.06.22.600206
 
 ##### - Scripts:
 All the information and command lines to run the plotting scripts are described in [scripts_README](https://github.com/Schlebusch-lab/Sahel_study/blob/main/scripts_README.md)
 
 ### Main Figures
-###### On the top-right side of the figures of the interactive plots, there are different tools for scrolling, zooming in, and zooming out with the mouse (using Box Zoom, Wheel Zoom, Wheel Zoom on the y-axis, Zoom in on the x-axis, Undo, and Reset) or saving the plots as figures in high resolution (*.svg format). 
+###### On the top-right side of the figures of the interactive plots, there are different tools for scrolling, zooming in, and zooming out with the mouse (using Box Zoom, Wheel Zoom, Wheel Zoom on the y-axis, Zoom in on the x-axis, Undo, and Reset) or saving the plots as figures in high resolution (*.svg or *.png format). 
 
 ###### &emsp;[Figure 1A-E | PCA results to explore the genetic diversity among studied Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_1A-E.html)
 
@@ -70,7 +70,7 @@ All the information and command lines to run the plotting scripts are described 
 - This study was funded by the European Research Council (ERC) under the grant AfricanNeo (“The African Neolithic: A genetic perspective”; grant agreement ID: 759933), granted to Prof. Carina Schlebusch; and by the Grant Agency of the Czech Republic (grant number: 19-09352S-14 P505) and by the Czech Academy of Sciences Award Praemium Academiae granted to Viktor Černý.
 
 #
-#### EGA accessory numbers for the datasets presented in this study:&emsp;[EGAS50000000451](https://ega-archive.org/studies/EGAS50000000451) 
+#### EGA accessory numbers for the datasets presented in this study:[EGAS50000000451](https://ega-archive.org/studies/EGAS50000000451) 
 
 Genome-wide genotype datasets of Fulani populations generated in this study are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers:[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653)  and [EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654)  datasets).
 
