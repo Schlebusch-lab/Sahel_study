@@ -69,9 +69,9 @@ All the information and command lines to run the plotting scripts are described 
 - This study was funded by the European Research Council (ERC) under the grant AfricanNeo (“The African Neolithic: A genetic perspective”; grant agreement ID: 759933), granted to Prof. Carina Schlebusch; and by the Grant Agency of the Czech Republic (grant number: 19-09352S-14 P505) and by the Czech Academy of Sciences Award Praemium Academiae granted to Viktor Černý.
 
 #
-#### EGA accessory numbers for the datasets presented in this study:[EGAS50000000451](https://ega-archive.org/studies/EGAS50000000451) 
+#### EGA accessory numbers for the datasets presented in this study: [EGAS50000000451](https://ega-archive.org/studies/EGAS50000000451) 
 
-Genome-wide genotype datasets of Fulani populations generated in this study are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers:[EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653)  and [EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654)  datasets).
+Genome-wide genotype datasets of Fulani populations generated in this study are available through the European Genome-phenome Archive (EGA) data repository (EGA accessory numbers: [EGAD50000000653](https://ega-archive.org/datasets/EGAD50000000653) and [EGAD50000000654](https://ega-archive.org/datasets/EGAD50000000654) datasets).
 
 ##### Sahel Data Access Committee EGA ID: [EGAC50000000290](https://ega-archive.org/dacs/EGAC50000000290). 
 
