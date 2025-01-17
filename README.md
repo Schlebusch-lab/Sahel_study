@@ -90,7 +90,7 @@ Letenská 1, 118 00 Prague, Czech Republic
 
 ##
 #### Contact person of this repository:
-##### Cesar Fortes-Lima (https://github.com/cesarforteslima). Emails: cfortes2@jh.edu; cesar.fortes-lima@ebc.uu.se
-
+##### Cesar Fortes-Lima (https://github.com/cesarforteslima). 
+Emails: cfortes2@jh.edu; cesar.fortes-lima@ebc.uu.se
 More scripts and figures are available upon request.
 
