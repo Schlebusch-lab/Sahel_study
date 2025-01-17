@@ -76,14 +76,14 @@ Genome-wide genotype datasets of Fulani populations generated in this study are 
 ##### Sahel Data Access Committee EGA ID: [EGAC50000000290](https://ega-archive.org/dacs/EGAC50000000290). 
 
 ##### Data Access Policy EGA ID: EGAP50000000253. Available in:  https://i-am-an-african.net/documents
-#
+
 #### Contact person of the Data Access Committee (DAC):
-##### Prof. Carina Schlebusch. Email: carina.schlebusch@ebc.uu.se\
+##### Prof. Carina Schlebusch. Email: carina.schlebusch@ebc.uu.se
 Human Evolution Program, Department of Organismal Biology, 
 Evolutionary Biology Centre, Uppsala University
 Norbyvägen 18C, SE-752 36 Uppsala, Sweden
 
-##### Prof. Viktor Černý. Email: cerny@arup.cas.cz\
+##### Prof. Viktor Černý. Email: cerny@arup.cas.cz
 Archaeogenetics Laboratory, 
 Institute of Archaeology of the Academy of Sciences of the Czech Republic, 
 Letenská 1, 118 00 Prague, Czech Republic
