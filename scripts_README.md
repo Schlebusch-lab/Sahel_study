@@ -68,8 +68,9 @@ Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
  Tables/ADMIXTURE_Fulani_aDNA-Modern_DB.K6.Q.csv 01-Main_Figures/Figure_2D_With_Labels
 
 ```
-### Figures 4A and S20 | Effective population sizes (Ne) estimated for each Fulani population. ###
+### Figure 4A | Effective population sizes (Ne) estimated for each Fulani population. ###
 ```
+# Figure 4A
 python3 scripts/bokeh_Figure_4A.py --output "01-Main_Figures/Figure_4A"
 
 ```
@@ -80,7 +81,6 @@ python3 scripts/bokeh_Figure_S21.py --output "02-Suppl_Figures/Figure_S21" \
  --input_B "Tables/Fulani-World_DB.ROH_Class_table.txt"
 
 ```
-
 # - Supplementary Figures #
 
 ### Figure S3 | Distribution of modern and ancient populations included in this study. ###
@@ -212,6 +212,12 @@ dev.off()
 # fits = qpgraph_resample_snps(f2_blocks, winner_graph, boot = 1000)
 # p <- fits %>% summarize_fits() %>% plotly_graph(print_highlow = TRUE)
 # htmlwidgets::saveWidget(as_widget(p), "02-Suppl_Figures/Figure_S19.html")
+
+```
+### Figure S20 | Effective population sizes (Ne) estimated for each Fulani group. ###
+```
+# Figure S20
+python3 scripts/bokeh_Figure_20.py --output "02-Suppl_Figures/Figure_S20"
 
 ```
 ### Figure S21 | Categories of ROH length on the basis of the studied populations. ###
