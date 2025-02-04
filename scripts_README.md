@@ -70,7 +70,6 @@ Rscript scripts/piechartMap.r "Figure 2D. ADMIXTURE results at K=6" \
 ```
 ### Figure 4A | Effective population sizes (Ne) estimated for each Fulani population. ###
 ```
-# Figure 4A
 python3 scripts/bokeh_Figure_4A.py --output "01-Main_Figures/Figure_4A"
 
 ```
@@ -216,7 +215,6 @@ dev.off()
 ```
 ### Figure S20 | Effective population sizes (Ne) estimated for each Fulani group. ###
 ```
-# Figure S20
 python3 scripts/bokeh_Figure_20.py --output "02-Suppl_Figures/Figure_S20"
 
 ```
