@@ -3,7 +3,8 @@
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.\
 Cesar A. Fortes-Lima, Mame Y. Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch.\
-doi: https://doi.org/10.1101/2024.06.22.600206
+American Journal of Human Genetics 112(2), February 6, 2025. \
+doi: https://doi.org/10.1016/j.ajhg.2024.12.015
 
 ##### - Scripts:
 All the information and command lines to run the plotting scripts are described in [scripts_README](https://github.com/Schlebusch-lab/Sahel_study/blob/main/scripts_README.md)
@@ -23,7 +24,7 @@ All the information and command lines to run the plotting scripts are described 
 
 ###### &emsp;[Figure 3A | Contour map based on ADMIXTURE results at K=7.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_3A.pdf)
 
-###### &emsp;[Figure 4A and S20 | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4A.html)
+###### &emsp;[Figure 4A | Effective population sizes (Ne) among Fulani populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/01-Main_Figures/Figure_4A.html)
 
 ###### &emsp;[Figures 4B and S21 | Categories of ROH length on the basis of the Fulani-Only dataset.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S21.html)
 
@@ -53,6 +54,8 @@ All the information and command lines to run the plotting scripts are described 
 ###### &emsp;[Figure S18 | Admixture graph for Fulani from Abalak (Niger) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S18.html)
 
 ###### &emsp;[Figure S19 | Admixture graph for Fulani from Linia (Chad) and reference populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S19.html)
+
+###### &emsp;[Figure S20 | Effective population sizes (Ne) among Fulani groups.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S20.html)
 
 ###### &emsp;[Figure S21 | Categories of ROH length estimated for studied worldwide populations.](https://raw.githack.com/Schlebusch-lab/Sahel_study/main/02-Suppl_Figures/Figure_S21.html)
 
