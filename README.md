@@ -3,8 +3,8 @@
 ##### - Citation:
 ***Population History and Admixture of the Fulani People from the Sahel***.\
 Cesar A. Fortes-Lima, Mame Y. Diallo, Václav Janoušek, Viktor Černý, and Carina M. Schlebusch.\
-American Journal of Human Genetics 112(2), February 6, 2025. \
-doi: https://doi.org/10.1016/j.ajhg.2024.12.015
+American Journal of Human Genetics 112(2):261-275, February 6, 2025. \
+https://doi.org/10.1016/j.ajhg.2024.12.015
 
 ##### - Scripts:
 All the information and command lines to run the plotting scripts are described in [scripts_README](https://github.com/Schlebusch-lab/Sahel_study/blob/main/scripts_README.md)
