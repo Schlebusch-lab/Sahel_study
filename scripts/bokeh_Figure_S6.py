@@ -209,6 +209,8 @@ while len(sizes) < len(fids):
 	sizes.extend(sizes)
 	sizes=sizes[0:len(fids)]
 
+tooltips = [('Population', '@FID'), ('Sample ID', '@IID')]
+
 plot_b = figure(title=title_b, toolbar_location="above", x_axis_label="PC"+str(which_pcs[0]), y_axis_label="PC"+str(which_pcs[1]), 
 	width=1700, height= 800, tooltips= tooltips, tools='pan,box_zoom,wheel_zoom,ywheel_zoom,undo,xzoom_in,redo,reset,save', 
 	active_scroll='wheel_zoom', background_fill_color="#fafafa", output_backend="svg")
@@ -287,7 +289,7 @@ hline = Span(location=0, dimension='width', line_color='grey', line_width=1, lin
 plot_b.renderers.extend([vline, hline])
 
 plot_b.add_tools(WheelZoomTool(), HoverTool(
- tooltips = [('Population', '@FID'), ('Sample ID', '@IID'),]))
+ tooltips = [('Population', '@FID'), ('Sample ID', '@IID')]))
 
 #######################
 
@@ -296,7 +298,7 @@ grid= gridplot([[plot_a], [plot_b]]) #, width=250, height=250)
 
 # Save plots
 print ("Saving Figure S6")
-export_png(grid, filename=args.output+".png")
+#export_png(grid, filename=args.output+".png")
 show(grid)
 
 # plot_a.output_backend= "svg"
