@@ -143,51 +143,5 @@ export_svgs(plot, filename="Map.svg")
 show(plot)
 exit()
 
-
-
-
-
 ###########################################
-
-
-
-
-ncolumn=(len(list(df['Population'])))/6+1
-# print "populations=",len(fids),"pop/column",ncolumn
-legend1 = Legend(
-    items=leg_1[0:ncolumn], location=(0, 30))
-
-legend2 = Legend(
-    items=leg_1[ncolumn:ncolumn*2], location=(0, 30))
-
-legend3 = Legend(
-    items=leg_1[ncolumn*2:ncolumn*3], location=(0, 30))
-
-legend4 = Legend(
-    items=leg_1[ncolumn*3:ncolumn*4], location=(0, 30))
-
-legend5 = Legend(
-    items=leg_1[ncolumn*4:ncolumn*5], location=(0, 30))
-
-legend6 = Legend(
-    items=leg_1[ncolumn*5:], location=(0, 30))
-
-plot.add_layout(legend1, 'right')
-plot.add_layout(legend2, 'right')
-plot.add_layout(legend3, 'right')
-plot.add_layout(legend4, 'right')
-plot.add_layout(legend5, 'right')
-plot.add_layout(legend6, 'right')
-
-plot.legend.location = "top_right"
-plot.legend.click_policy="hide" # "mute"
-
-plot.legend.glyph_width= 18
-plot.legend.glyph_height= 18
-
-plot.legend.label_text_font_style = "normal"
-plot.legend.label_text_font_size = '8pt'
-plot.legend.label_width= 8
-plot.legend.label_height= 8
-
 
